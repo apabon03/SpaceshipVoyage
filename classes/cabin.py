@@ -3,7 +3,7 @@ class Cabin:
         self.cabin_id = cabin_id
         self.max_capacity = max_capacity
         self.occupants = []
-        self.resources = []  # Add this line to include resources
+        self.resources = []  
 
     def has_space(self):
         return len(self.occupants) < self.max_capacity
